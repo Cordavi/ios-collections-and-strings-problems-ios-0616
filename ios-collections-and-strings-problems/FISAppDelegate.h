@@ -6,10 +6,13 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 
- * Declare your methods here!
- 
- */
+- (NSString *)stringsInRectangularFrame:(NSArray *)arrayOfStrings;
+- (NSString *)translateToPigLatin:(NSArray *)arrayOfStrings;
+- (NSString *)translateToEnglish:(NSArray *)arrayOfStrings;
+- (NSArray *)combinedArray:(NSArray *)firstArray arrayToAdd:(NSArray *)secondArray;
+- (NSArray *)numbersToNumbersArray:(NSUInteger)number;
+- (NSArray *)reverseArray:(NSArray *)arrayToReverse;
+
+
 
 @end
